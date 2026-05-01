@@ -1,0 +1,44 @@
+# Sensitive Files - NEVER UPLOAD
+credentials.json
+token.pickle
+*.session
+.env
+
+# Folders with sensitive data
+configure/
+Data/
+Session/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Database
+*.db
+*.db-journal
+
+# Results (optional - too large)
+Results/
+
+# Temporary files
+temp_*
+*.tmp
+*.log
+
+# Stats
+stats.json
+
+# Test files
+test*.py
+gemini_api_test*
+cleaner*
+gemini_models*
+
+# IDE
+.vscode/
+.idea/
